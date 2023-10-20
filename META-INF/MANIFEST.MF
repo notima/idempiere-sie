@@ -11,7 +11,7 @@ Require-Bundle: org.adempiere.base;bundle-version="1.0.0",
  org.adempiere.base.process;bundle-version="1.0.0",
  org.adempiere.plugin.utils;bundle-version="0.0.0"
 Bundle-ClassPath: .,
- siefilelib-1.0.2.jar
+ lib/siefilelib-1.0.2.jar
 Bundle-Activator: se.idempiere.sie.Activator
 Import-Package: org.osgi.framework;version="1.6.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
