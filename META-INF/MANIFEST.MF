@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: idempiere-sie
+Bundle-SymbolicName: idempiere-sie;singleton:=true
+Bundle-Version: 1.0.0
+Export-Package: org.notima.sie,
+ org.notima.sie.converter,
+ se.idempiere.sie
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.adempiere.base;bundle-version="1.0.0",
+ org.adempiere.base.process;bundle-version="1.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0"
+Bundle-ClassPath: .,
+ siefilelib-1.0.2.jar
+Bundle-Activator: se.idempiere.sie.Activator
+Import-Package: org.osgi.framework;version="1.6.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
