@@ -6,10 +6,22 @@
 		<version>0.1.0-SNAPSHOT</version>
 		<relativePath>../idempiere-sie.parent/pom.xml</relativePath>
  </parent>
- 
   <artifactId>idempiere-sie</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>idempiere-sie</name>
+  <properties>
+		<sielib-version>1.0.4</sielib-version>
+  </properties>
+  
+  <dependencies>
+		<dependency>
+			<groupId>org.notima</groupId>
+		    <artifactId>siefilelib</artifactId>
+		    <version>${sielib-version}</version>
+		</dependency>
+		
+  </dependencies>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
