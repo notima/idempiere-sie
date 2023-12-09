@@ -7,8 +7,12 @@ Bundle-ActivationPolicy: lazy
 Require-Bundle: org.adempiere.base;bundle-version="1.0.0",
  org.adempiere.base.process;bundle-version="1.0.0",
  org.adempiere.plugin.utils;bundle-version="0.0.0"
-Bundle-ClassPath: .
+Bundle-ClassPath: .,
+ lib/siefilelib-1.0.4.jar
 Bundle-Activator: se.idempiere.sie.Activator
 Import-Package: org.osgi.framework;version="1.6.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Automatic-Module-Name: idempiere.sie
+Export-Package: org.notima.sie,
+ org.notima.sie.converter,
+ se.idempiere.sie
