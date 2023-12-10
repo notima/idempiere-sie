@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: idempiere-sie
 Bundle-SymbolicName: idempiere-sie;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 0.1.0
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.adempiere.base;bundle-version="1.0.0",
  org.adempiere.base.process;bundle-version="1.0.0",
